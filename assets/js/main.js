@@ -15,9 +15,8 @@ console.log(
 );
 
 function longestWordWithForEachLoop(string) {
-  const words = string.split(" ");
   let longestWord = "";
-  words.forEach(function(x) {
+  string.split(" ").forEach(function(x) {
     longestWord = longestWord.length >= x.length ? longestWord : x;
   });
   return longestWord;
