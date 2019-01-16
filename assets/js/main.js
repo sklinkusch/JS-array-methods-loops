@@ -13,3 +13,16 @@ console.log(
   "For loop solution:",
   longestWordWithForLoop("Max has a magic dog.")
 );
+
+function longestWordWithForEachLoop(string) {
+  const words = string.split(" ");
+  let longestWord = "";
+  words.forEach(function(x) {
+    longestWord = longestWord.length >= x.length ? longestWord : x;
+  });
+  return longestWord;
+}
+console.log(
+  "ForEach loop solution:",
+  longestWordWithForEachLoop("Max has a magic dog.")
+);
