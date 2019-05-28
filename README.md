@@ -7,4 +7,4 @@ This exercise was performed by Stefan Klinkusch at Digital Career Institute in B
 - loops
   - ```for```
   - ```forEach```
-- ternary operator (```?``/```:```)
+- ternary operator (```?```/```:```)
